@@ -1,3 +1,4 @@
+# Problem statement: https://cs50.harvard.edu/python/2022/psets/2/nutrition/
 fruits_cal = {"Apple": "130",
               "Avocado": "50",
               "Banana": "110",
@@ -19,6 +20,5 @@ fruits_cal = {"Apple": "130",
               "Tangerine": "50",
               "Watermelon": "80"}
 fruit=input("Item: ").title()
-print(fruit)
 if fruit in fruits_cal:
     print("Calories:",fruits_cal[fruit])

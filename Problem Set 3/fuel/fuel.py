@@ -1,5 +1,4 @@
 # Problem statement: https://cs50.harvard.edu/python/2022/psets/3/fuel/
-
 while True:
     try:
         x,y=[int(x) for x in input("Fraction: ").split("/")]

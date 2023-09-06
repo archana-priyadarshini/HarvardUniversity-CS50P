@@ -9,6 +9,6 @@ while True:
             grocery_list[item]=1
     except EOFError:
         break
-sorted=dict(sorted(grocery_list.items()))
-for key,value in sorted.items():
+sorted_grocery_list=dict(sorted(grocery_list.items()))
+for key,value in sorted_grocery_list.items():
     print(f"{value} {key}")

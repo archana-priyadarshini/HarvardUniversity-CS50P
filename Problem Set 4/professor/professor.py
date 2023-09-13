@@ -1,3 +1,4 @@
+#Problem Statement: https://cs50.harvard.edu/python/2022/psets/4/professor/
 import random
 
 
@@ -17,7 +18,7 @@ def main():
                     break
                 else:
                     raise ValueError
-            except (ValueError, NameError):
+            except ValueError:
                 print("EEE")
                 chances-=1
                 pass

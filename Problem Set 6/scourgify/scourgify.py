@@ -22,3 +22,4 @@ try:
                     writer.writerow({"first": first, "last": last, "house": house})
 except FileNotFoundError:
     sys.exit(f"Could not read {before_filename}")
+

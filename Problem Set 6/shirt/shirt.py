@@ -24,3 +24,4 @@ try:
     cropped.save(output)
 except FileNotFoundError:
     sys.exit("Input does not exist")
+
